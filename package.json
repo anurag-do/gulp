@@ -1,7 +1,7 @@
 {
   "name": "gulp-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "[**Gulp Starter**](https://github.com/ummahusla/Gulp-Starter) is a project template which uses [**Gulp**](http://gulpjs.com/) to compile CSS to SASS, minimise CSS and JS files, optimising images, [**Browsersync**](https://browsersync.io/) for time-saving while development and much more!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +18,19 @@
     "gulp-if": "^2.0.1",
     "gulp-imagemin": "^3.0.3",
     "gulp-sass": "^2.3.2",
-    "gulp-uglify": "^2.0.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-uglifycss": "^1.1.0",
     "gulp-useref": "^3.1.2",
+    "node-sass": "^4.13.1",
     "run-sequence": "^1.2.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anurag-do/gulp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anurag-do/gulp/issues"
+  },
+  "homepage": "https://github.com/anurag-do/gulp#readme",
+  "dependencies": {}
 }
